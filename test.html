@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .some-facts{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.facts-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 124px; 
+    
+}
+
+.fact>div{
+    border: 1px solid #FF900E;
+    width: 240px; 
+    height: 240px;
+    border-radius: 8px;
+    
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+.fact{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+.fact-number{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+.fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.fact-description {
+    width: 542px;
+    
+}
+    </style>
+</head>
+<body>
+    <section>
+        <h3 class="section-title">Some Facts</h3>
+        <p class="fact-description banner-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+        <div class="facts-container">
+            <div class="fact display-flex">
+                <div>
+                    <img src="images/icons/ribon.png" alt="" class="fact-icon">
+                <h4 class="fact-number">54</h4>
+                <h5 class="fact-name">Awards Winnings</h5>
+                </div>
+            </div>
+            <div class="fact display-flex">
+               <div>
+                <img src="images/icons/projects.png" alt="" class="fact-icon">
+                <h4 class="fact-number">1458</h4>
+                <h5 class="fact-name">Project finished</h5>
+               </div>
+            </div>
+            <div class="fact display-flex">
+                <div>
+                    <img src="images/icons/customers.png" alt="" class="fact-icon">
+                <h4 class="fact-number">590</h4>
+                <h5 class="fact-name">Client Worked</h5>
+                </div>
+            </div>
+            <div class="fact display-flex">
+               <div>
+                <img src="images/icons/email.png" alt="" class="fact-icon">
+                <h4 class="fact-number">22578</h4>
+                <h5 class="fact-name">Email send</h5>
+               </div>
+            </div>
+        </div>
+
+        
+
+      </section>
+</body>
+</html>
